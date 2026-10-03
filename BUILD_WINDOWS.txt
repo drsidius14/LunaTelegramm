@@ -1,0 +1,6 @@
+1. Установи Android Studio.
+2. Открой эту папку как проект.
+3. В gradle.properties добавь:
+TELEGRAM_API_ID=ТВОЙ_ID
+TELEGRAM_API_HASH=ТВОЙ_HASH
+4. Build → Build APK(s).
