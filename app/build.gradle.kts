@@ -7,6 +7,15 @@ android {
     namespace = "ru.luna.telegram"
     compileSdk = 36
 
+    compileOptions {
+        sourceCompatibility = JavaVersion.VERSION_17
+        targetCompatibility = JavaVersion.VERSION_17
+    }
+
+    kotlinOptions {
+        jvmTarget = "17"
+    }
+
     defaultConfig {
         applicationId = "ru.luna.telegram"
         minSdk = 26
